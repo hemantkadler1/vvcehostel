@@ -1,0 +1,57 @@
+.admin-register-page {
+  max-width: 450px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.admin-register-page h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+
+.admin-register-page form {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-register-page input {
+  padding: 12px 14px;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.admin-register-page input:focus {
+  border-color: #2e86de;
+  outline: none;
+}
+
+.admin-register-page button {
+  padding: 12px;
+  background-color: #2e86de;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.admin-register-page button:hover {
+  background-color: #1e6fc7;
+}
+
+.admin-register-page .error {
+  color: #e74c3c;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 500;
+}

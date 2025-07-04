@@ -1,0 +1,112 @@
+/* Container Styling */
+.complaints-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  background: linear-gradient(to right, #f8fbff, #e6f0ff);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  transition: 0.3s ease-in-out;
+}
+
+/* Heading */
+.complaints-heading {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #1e3a8a;
+  margin-bottom: 20px;
+}
+
+/* Toast Message */
+.toast-message {
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  font-weight: 500;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.toast-message.success {
+  background-color: #d1fae5;
+  color: #065f46;
+  border: 1px solid #10b981;
+}
+
+.toast-message.error {
+  background-color: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #ef4444;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Form Styling */
+.complaints-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.complaints-form input,
+.complaints-form select,
+.complaints-form textarea {
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 15px;
+  transition: border 0.2s;
+  resize: vertical;
+  background-color: #fff;
+}
+
+.complaints-form input:focus,
+.complaints-form select:focus,
+.complaints-form textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+/* Button Styling */
+.submit-btn {
+  padding: 12px;
+  background-color: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #1e40af;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .complaints-container {
+    padding: 20px;
+  }
+
+  .complaints-heading {
+    font-size: 24px;
+  }
+
+  .submit-btn {
+    font-size: 15px;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,169 @@
+.gallery-page {
+  padding: 2rem;
+  max-width: 1300px;
+  margin: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #f0f4ff, #e0ecff);
+  min-height: 100vh;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+
+.gallery-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: #1e3a8a;
+}
+
+.gallery-subtitle {
+  text-align: center;
+  color: #334155;
+  margin-bottom: 2rem;
+}
+
+
+.gallery-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1.5rem;
+}
+
+.gallery-card {
+  background: #f3f4f6;
+  border-radius: 12px;
+  padding: 1.2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.gallery-card:hover {
+  background: #e0e7ff;
+  transform: translateY(-4px);
+}
+
+.gallery-icon {
+  font-size: 2rem;
+  margin-bottom: 0.6rem;
+  color: #3b82f6;
+}
+
+.gallery-label {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #333;
+}
+
+.gallery-images {
+  margin-top: 2rem;
+}
+
+.category-heading {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #f3f3f3;
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.image-grid img {
+  width: 100%;
+  max-width: 300px; /* This keeps single image from stretching too much */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.image-grid img:hover {
+  transform: scale(1.05);
+}
+
+
+.back-btn {
+  margin-bottom: 1rem;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.back-btn:hover {
+  background: #2563eb;
+}
+
+.video-heading {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 2rem 0 1rem;
+  color: #1e293b; /* dark blue-gray for contrast */
+  text-align: center;
+  text-decoration: underline;
+}
+
+.youtube-video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.youtube-card {
+  background: #f9fafb;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.youtube-card iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: none;
+  border-radius: 8px;
+}
+
+.youtube-title {
+  margin-top: 0.7rem;
+  font-size: 1rem;
+  color: #111827;
+  font-weight: 500;
+}
+
+/* Responsive tweaks */
+@media (max-width: 500px) {
+  .gallery-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .gallery-card {
+    padding: 1rem;
+  }
+
+  .gallery-icon {
+    font-size: 1.6rem;
+  }
+
+  .gallery-label {
+    font-size: 0.9rem;
+  }
+
+  .video-heading {
+    font-size: 1.2rem;
+  }
+}

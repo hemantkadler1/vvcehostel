@@ -1,0 +1,106 @@
+.boys-hostel-page {
+    padding: 3rem 2rem;
+    background-color: #f8fafc;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  .floor-heading {
+    font-size: 2.8rem;
+    color: #091f5d;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .floor-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+    padding: 1rem;
+  }
+  
+  .floor-card {
+    background: linear-gradient(135deg, #c7d2fe, #e0f2fe);
+    border: 2px solid #1e3a8a;
+    border-radius: 18px;
+    padding: 1.5rem;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+  }
+  
+  .floor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .floor-card h2 {
+    font-size: 1.6rem;
+    color: #1e3a8a;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .floor-card p {
+    font-size: 1rem;
+    color: #333;
+    margin: 0;
+  }
+  
+  .more-details-toggle {
+    margin-top: 10px;
+    cursor: pointer;
+    color: #2563eb;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  
+  .more-details-toggle:hover {
+    color: #1d4ed8;
+  }
+  
+  .floor-details {
+    margin-top: 1rem;
+    background-color: #f0f4ff;
+    border-radius: 12px;
+    padding: 1rem;
+    border: 1px solid #93c5fd;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  .view-button {
+    margin-top: 10px;
+    background-color: #1e3a8a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 0.95rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-button:hover {
+    background-color: #3b82f6;
+  }
+  
+  /* Highlight style for Floor 1 */
+  .highlighted-floor {
+    border: 3px solid #1e40af;
+    background: linear-gradient(135deg, #bfdbfe, #dbeafe);
+  }
+  
+  /* Fade in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

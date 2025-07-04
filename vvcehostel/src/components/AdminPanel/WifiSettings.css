@@ -1,0 +1,117 @@
+.wifi-settings {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .wifi-heading {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #333;
+  }
+  
+  .wifi-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  }
+  
+  .input-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .input-row input {
+    flex: 1;
+    padding: 0.7rem 1rem;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .password-input {
+    position: relative;
+    flex: 1;
+  }
+  
+  .password-input input {
+    width: 100%;
+  }
+  
+  .password-input span {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #666;
+  }
+  
+  .add-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 0.7rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .add-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .wifi-table {
+    overflow-x: auto;
+  }
+  
+  .wifi-table h3 {
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #444;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  .delete-btn {
+    background-color: #e74c3c;
+    border: none;
+    color: white;
+    padding: 0.5rem 0.8rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c0392b;
+  }
+  
+  @media (max-width: 768px) {
+    .input-row {
+      flex-direction: column;
+    }
+  }
+  

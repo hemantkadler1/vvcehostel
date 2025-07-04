@@ -1,0 +1,169 @@
+/* === Room Details Container === */
+.room-details-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px 20px;
+  text-align: center;
+  background-color: #f9fbff;
+  border-radius: 12px;
+}
+
+/* === Heading === */
+.room-heading {
+  font-size: 30px;
+  font-weight: 800;
+  color: #1e3a8a;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  border-bottom: 4px solid #2563eb;
+  display: inline-block;
+  padding-bottom: 8px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* === Back Button === */
+.back-button {
+  background-color: #e0ecff;
+  color: #1e3a8a;
+  border: 2px solid #1e3a8a;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 25px;
+  transition: all 0.3s ease-in-out;
+}
+
+.back-button:hover {
+  background-color: #1e3a8a;
+  color: white;
+  transform: translateY(-2px) scale(1.03);
+}
+
+/* === Status Messages === */
+.loading-text,
+.error-text,
+.no-students {
+  font-size: 18px;
+  font-weight: 600;
+  color: #b91c1c;
+  background-color: #ffe4e4;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 15px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+/* === Student Grid === */
+.student-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* === Student Card === */
+.student-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: all 0.3s ease;
+  border-left: 6px solid #2563eb;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.student-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* === Student Avatar === */
+.student-avatar {
+  width: 60px;
+  height: 60px;
+  background: #c7d2fe;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 700;
+  color: #1e3a8a;
+  border: 3px solid #1e3a8a;
+  margin-bottom: 10px;
+}
+
+/* === Student Name === */
+.student-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1e40af;
+  margin-bottom: 5px;
+}
+
+/* === Student Details Text === */
+.student-card p {
+  font-size: 15px;
+  color: #374151;
+  margin: 5px 0;
+}
+
+/* Align All Text Left */
+.student-card div,
+.student-card h3,
+.student-card p {
+  text-align: left;
+  padding-left: 10px;
+}
+
+/* === Fees Status Tag === */
+.fees-status {
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 12px;
+  display: inline-block;
+}
+
+/* === Fees Paid === */
+.fees-status.paid {
+  background: #16a34a;
+  color: white;
+  border: 2px solid #0f5132;
+}
+
+/* === Fees Pending === */
+.fees-status.pending {
+  background: #dc2626;
+  color: white;
+  border: 2px solid #7f1d1d;
+}
+
+/* === Responsive Adjustments === */
+@media (max-width: 768px) {
+  .room-details-container {
+    padding: 20px 15px;
+  }
+
+  .room-heading {
+    font-size: 24px;
+  }
+
+  .student-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .back-button {
+    width: 100%;
+  }
+}

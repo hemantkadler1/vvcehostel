@@ -1,0 +1,111 @@
+.student-details-container {
+  padding: 2rem;
+  background-color: #f9fafb;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  margin: 2rem auto;
+  max-width: 1200px;
+}
+
+.search-input {
+  padding: 0.6rem 1rem;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.student-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.student-form input,
+.student-form select,
+.student-form textarea {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.fees-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.submit-btn {
+  padding: 0.9rem;
+  background-color: #2563eb;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  grid-column: span 2;
+}
+
+.submit-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.student-table {
+  overflow-x: auto;
+}
+
+.student-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border: 2px solid #9ca3af; /* Outer border */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.student-table th,
+.student-table td {
+  border: 1px solid #9ca3af; /* Row & column borders */
+  padding: 0.8rem;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.student-table th {
+  background-color: #f3f4f6;
+  font-weight: 600;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 0.5rem 0.8rem;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.edit-btn {
+  background-color: #0ea5e9;
+}
+
+.edit-btn:hover {
+  background-color: #0284c7;
+}
+
+.delete-btn {
+  background-color: #ef4444;
+  margin-left: 5px;
+}
+
+.delete-btn:hover {
+  background-color: #dc2626;
+}

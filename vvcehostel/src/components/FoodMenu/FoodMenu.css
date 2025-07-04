@@ -1,0 +1,107 @@
+.food-menu-container {
+    max-width: 1100px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background: linear-gradient(to right, #ffffff, #f2f4f8);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    transition: 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .food-menu-container:hover {
+    transform: translateY(-5px);
+  }
+  .food-menu-table td {
+    color: #111827; /* Dark text */
+    background-color: #ffffff; /* Light background */
+    cursor: pointer;
+  }
+  
+  .food-menu-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1e3a8a;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+  }
+  
+  /* Table Styling */
+  .table-wrapper {
+    overflow-x: auto;
+  }
+  
+  .food-menu-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 700px;
+  }
+  
+  .food-menu-table th,
+  .food-menu-table td {
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #e2e8f0;
+    font-size: 1rem;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .food-menu-table th {
+    background-color: #3b82f6;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .food-menu-table tr:nth-child(even) td {
+    background-color: #f8fafc;
+  }
+  
+  .food-menu-table tr:hover td {
+    background-color: #e0f2fe;
+    transition: background 0.3s ease;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .food-menu-title {
+      font-size: 1.5rem;
+    }
+  
+    .food-menu-container {
+      padding: 1rem;
+    }
+  
+    .food-menu-table th,
+    .food-menu-table td {
+      padding: 0.75rem;
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .food-menu-title {
+      font-size: 1.25rem;
+    }
+  
+    .food-menu-table {
+      min-width: 100%;
+      font-size: 0.85rem;
+    }
+  
+    .food-menu-table th,
+    .food-menu-table td {
+      padding: 0.6rem;
+    }
+  }
+  @media (max-width: 768px) {
+    .food-menu-table th,
+    .food-menu-table td {
+      font-size: 13px;
+      padding: 6px;
+    }
+  }
+  

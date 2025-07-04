@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8fafc;
+}
+
+/* Wrapper for full page layout */
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main content wrapper that expands to fill space */
+.content-wrapper {
+  flex: 1;
+  padding: 2rem 1rem;
+}
+
+/* Container for horizontal scroll of floors */
+.floor-grid {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  overflow-y: hidden;
+  gap: 4rem;
+  padding: 2rem 1rem;
+  background-color: #f1f5f9;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap;
+}
+
+/* Hide scrollbar for better appearance */
+.floor-grid::-webkit-scrollbar {
+  height: 8px;
+}
+.floor-grid::-webkit-scrollbar-track {
+  background: transparent;
+}
+.floor-grid::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+/* Floor card style */
+.floor-card {
+  flex: 0 0 auto;
+  width: 250px;
+  scroll-snap-align: start;
+  background: linear-gradient(135deg, #c7d2fe, #e0f2fe);
+  border-radius: 14px;
+  padding: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.3rem;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+  display: inline-block;
+  white-space: normal;
+}
+
+/* Footer styling */
+.footer {
+  background-color: #1e3a8a;
+  color: white;
+  text-align: center;
+  padding: 12px 20px;
+  font-size: 14px;
+}

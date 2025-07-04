@@ -1,0 +1,65 @@
+[
+    {
+        "breakfast": "idli vada with sambhar chutney coffe",
+        "day": "monday",
+        "dinner": "Akki Roti(2 nos) Brinjal fry/chutney,Sambhar curd,Green Rasam ",
+        "lunch": "Meals green leaves sambhar ladies finger fry butter milk",
+        "snacks": "masala puri & tea"
+    },
+    {
+        "breakfast": "Vegetable palav(Green&Red),Raita,Tea",
+        "day": "Tuesday",
+        "dinner": "Meals Mix Veg Sambhar,Dal fry,Curd,Egg/Banana",
+        "lunch": "(NO chapati) Meals,Raddish Sambhar,Aloo Dry palay,Butter Milk,Red Rasam",
+        "snacks": "Maddur Vade & Coffee"
+    },
+    {
+        "breakfast": "Upma(RAVA)/Avalakki/Shavege Bath,Badam Milk",
+        "day": "wednesday",
+        "dinner": "porota chicken chops/Palak Paneer masala Veg gravy,Rice & curd",
+        "lunch": "(NO Chapati) Meals Drumstick Sambhar,Betroot Dry fry/vegetable dry,ButterMilk, Green Rasam",
+        "snacks": "green grains & Tea"
+    },
+    {
+        "day": "Thursday",
+        "breakfast": "Puliyogare chutney & coffee/Kara Pongal",
+        "lunch": "Meals Veg Sambhar,poori ,Veg kadai Butter Milk,Red Rasam",
+        "snacks": "Aloo Bonda/Aloo Bun & Tea",
+        "dinner": "Chapati Dal Kadlekal Sambhar Curd Egg/Banana"
+    },
+    {
+        "day": "Friday",
+        "breakfast": "Bisibele Bath,Kara bondi and Badam Milk",
+        "lunch": "Meals capsicum fry/Avarebele gojju,Onion & Aloo Sambhar,ButterMilk",
+        "snacks": "Plain Cake/Somosa & Coffee",
+        "dinner": "Rumali Roti, Rajma Dal, Rice & Curd, Green Rasam"
+    },
+    {
+        "day": "Saturday",
+        "breakfast": "Vangibath/Tomato Bath with chutney and coffee",
+        "lunch": "Meals vegetable Sambhar channa Dry fry/Tomato curry,Butter Milk,Red Rasam",
+        "snacks": "Dil pasand & coffee",
+        "dinner": "Meals Drumstick Sambhar, Dry beans palya, sweet & curd"
+    },
+    {
+        "breakfast": "Masala Dosa,Aloo Palya,Chutney Coffee",
+        "day": "Sunday",
+        "dinner": "Lemon/jeera rice with curd rice",
+        "lunch": "Special Meals Veg schezwan fried rice/fried rice,sweet  Non-veg(Chicken Biriyani and Kababs,sambhar)(common fruits salad/ice cream) ",
+        "snacks": "Tea"
+    },
+    {
+        "breakfast": "Bread Jam/Bread Toast",
+        "day": "All day",
+        "dinner": "Curd",
+        "lunch": "Butter Milk",
+        "snacks": "Tea/Coffee"
+    },
+    {
+        "day": "monday",
+        "breakfast": "idli",
+        "lunch": "chapati",
+        "snacks": "green grains",
+        "dinner": "paneer chicken"
+    }
+]
